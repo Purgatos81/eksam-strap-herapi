@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hotel",
     "pluralName": "hotels",
-    "displayName": "Hotel"
+    "displayName": "Hotel",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,10 @@
     },
     "Price": {
       "type": "biginteger"
+    },
+    "Booked": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
