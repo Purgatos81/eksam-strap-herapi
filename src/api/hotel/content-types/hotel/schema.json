@@ -24,6 +24,21 @@
     "Booked": {
       "type": "boolean",
       "default": false
+    },
+    "Hotelimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Information": {
+      "type": "richtext"
+    },
+    "Rating": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
