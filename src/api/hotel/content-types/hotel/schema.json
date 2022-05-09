@@ -21,10 +21,6 @@
     "Price": {
       "type": "biginteger"
     },
-    "Booked": {
-      "type": "boolean",
-      "default": false
-    },
     "Hotelimage": {
       "type": "media",
       "multiple": false,
@@ -33,12 +29,16 @@
         "images"
       ]
     },
-    "Information": {
-      "type": "richtext"
-    },
     "Rating": {
       "type": "integer",
-      "default": 0
+      "default": 9
+    },
+    "Featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "imgurl": {
+      "type": "string"
     }
   }
 }
